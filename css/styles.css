@@ -64,6 +64,10 @@ p {
     margin: 0 auto;
     display: block; }
 
+.steps__paragraph{
+  line-height: 26px;
+}
+
 /*
  * Video-bon -------------------------------
  */
@@ -95,7 +99,9 @@ p {
     margin-top: 490px; }
     .steps-right .steps-right__text-wrap h2 {
       color: #272e34;
-      font-weight: bold; }
+      font-weight: bold; 
+      letter-spacing: 4px;
+    }
 
 .steps-left {
   background: #272e34;

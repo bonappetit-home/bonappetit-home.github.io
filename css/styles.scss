@@ -75,7 +75,9 @@ p{
         display: block;
     }
 }
-
+.steps__paragraph{
+  line-height: 26px;
+}
 
 /*
  * Video-bon -------------------------------
@@ -116,6 +118,7 @@ p{
         h2{
             color: rgb(39, 46, 52);
             font-weight: bold;
+            letter-spacing: 4px;
         }
     }
 }
