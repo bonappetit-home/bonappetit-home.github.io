@@ -109,7 +109,9 @@
 	width: 100px;
 	height: 100px;
 	margin: -50px 0 0 -50px;
-	background: url(bigplay.svg) no-repeat;
+	background: url(bigplay.png) no-repeat;
+	background-size: contain;
+	transition: .3s all ease;
 }
 
 .no-svg .mejs-overlay-button {
@@ -117,7 +119,7 @@
 }
 
 .mejs-overlay:hover .mejs-overlay-button {
-	background-position: 0 -100px ;
+	opacity: 0.9;
 }
 
 .mejs-overlay-loading {
