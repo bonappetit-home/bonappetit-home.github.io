@@ -113,12 +113,15 @@ p{
     }
     .steps-right__text-wrap{
         padding-left: 10%;
-        max-width: 424px;
+        max-width: 438px;
         margin-top: 490px;
         h2{
             color: rgb(39, 46, 52);
             font-weight: bold;
             letter-spacing: 4px;
+        }
+        p{
+            max-width: 438px;
         }
     }
 }

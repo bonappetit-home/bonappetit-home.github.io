@@ -64,9 +64,8 @@ p {
     margin: 0 auto;
     display: block; }
 
-.steps__paragraph{
-  line-height: 26px;
-}
+.steps__paragraph {
+  line-height: 26px; }
 
 /*
  * Video-bon -------------------------------
@@ -95,13 +94,14 @@ p {
     padding-right: 6%; }
   .steps-right .steps-right__text-wrap {
     padding-left: 10%;
-    max-width: 470px;
+    max-width: 438px;
     margin-top: 490px; }
     .steps-right .steps-right__text-wrap h2 {
       color: #272e34;
-      font-weight: bold; 
-      letter-spacing: 4px;
-    }
+      font-weight: bold;
+      letter-spacing: 4px; }
+    .steps-right .steps-right__text-wrap p {
+      max-width: 438px; }
 
 .steps-left {
   background: #272e34;
@@ -209,7 +209,7 @@ footer {
       margin-left: calc(50% - 200px); }
     .steps-right .steps-right__text-wrap, .steps-left .steps-right__text-wrap {
       padding-left: 0;
-      max-width: 424px;
+      max-width: 470px;
       margin: 0 auto;
       margin-top: 60px; }
     .steps-right .steps-left__text-wrap, .steps-left .steps-left__text-wrap {
@@ -222,12 +222,12 @@ footer {
     padding-left: 30px;
     padding-right: 30px; }
     footer .footer__social {
-      width: 50%;
+      width: 70%;
       float: left; }
       footer .footer__social .footer__social-wrap {
         float: right; }
     footer .footer__copyright {
-      width: 50%;
+      width: 30%;
       float: left; } }
 @media (max-width: 768px) {
   .main h1 {
@@ -259,7 +259,7 @@ footer {
         float: none;
         margin: 0 auto;
         margin-top: 20px;
-        width: 344px; }
+        width: 418px; }
     footer .footer__copyright {
       width: 100%;
       float: none;
