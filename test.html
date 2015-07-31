@@ -41,17 +41,19 @@
   <script type="text/javascript">
     Parse.initialize("1xzWcLBL9xXTP4s3XpdNYChaLP5MjZ7QPDNUiuDe", "co9aMd2V4V7DXeewbm9o27DRxES0NQup4iDWiWR1");
 
-    
-    var TestObject = Parse.Object.extend("TestObject");
-    var testObject = new TestObject();
-      testObject.save({foo: "bar"}, {
-      success: function(object) {
-        $(".success").show();
-      },
-      error: function(model, error) {
-        $(".error").show();
-      }
-    });
+    var SendGrid = require('sendgrid')('sarcilav','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');
+    Parse.Cloud.run('hello', {}, {
+  success: function(result) {
+    // result is 'Hello world!'
+    $(".success").show();
+  },
+  error: function(error) {
+    $(".error").show();
+  }
+});
+
+
+      
   </script>
 </body>
 
