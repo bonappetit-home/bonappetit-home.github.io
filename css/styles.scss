@@ -18,6 +18,7 @@ body{
     section{
         width: 100%;
         display: inline-block;
+        position: relative;
     }
 }
 
@@ -77,6 +78,11 @@ p{
         letter-spacing: 1px;
         margin: 0 auto;
         display: block;
+        width: 250px;
+        transition: 0.4s all ease;
+        &.btn-reserve--width{
+            width: 490px;
+        }
     }
 }
 .steps__paragraph{
@@ -228,3 +234,34 @@ footer{
 }
 
 
+.box--reserve{
+    height: 62px;
+}
+.input--reserve{
+    width: 336px;
+    border: 4px solid rgba(255, 255, 255, 0.5);
+    font-family: 'Montserrat', sans-serif;
+    padding: 17px 24px;
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #333;
+    background: #ddd;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.box--input{
+    display: none;
+    margin: 0 auto;
+    width: 490px;
+    position: absolute;
+    bottom: 195px;
+    left: 430px;
+    input, button{
+    float:left;
+    }
+    button{
+        width: auto !important;
+    }
+}
