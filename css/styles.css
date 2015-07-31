@@ -28,6 +28,11 @@ p {
   line-height: 22px;
   font-size: 1.4rem; }
 
+.mejs-container.svg.mejs-video,
+.mejs-container.svg.mejs-video:focus {
+    outline: none;
+}
+
 /*
  * Main -------------------------------
  */
