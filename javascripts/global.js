@@ -27,7 +27,7 @@ jQuery(document).ready(function($) {
 			  }
   		});
   	}else{
-  		alert("Uh oh, something went wrong, please try again");
+  		alert("Bad email, please try again");
   	}
 		
 	});
