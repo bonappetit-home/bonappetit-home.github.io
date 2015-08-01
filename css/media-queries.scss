@@ -21,6 +21,9 @@
   .main{
     padding: 80px 0 100px 0;
   }
+  .box--input{
+    bottom: 100px;
+  }
   .steps-right, .steps-left{
     padding: 80px 0;
     img{
@@ -116,7 +119,27 @@
   }
 }
 
+@media (max-width: 520px) {
+  .box--input {
+    width: 337px;
+    input, button {
+      float: none;
+      margin: 0 auto;
+      margin-bottom: 15px;
+    }
+  }
+  .box--reserve{
+    min-width: 250px;
+  }
+}
+
 @media (max-width: 445px) {
+  p{
+    font-size: 1.6rem;
+  }
+  h2{
+    font-size: 1.8rem;
+  }
   .main {
     padding: 60px 0 60px 0;
     h1 {
@@ -125,10 +148,32 @@
       margin-left: calc(50% - 75px);
     }
     .main__title {
-      margin: 50px auto;
+      margin: 50px auto 25px;
       padding: 0 20px;
     }
+    .main__btn-reserve{
+      &.btn-reserve--width{
+        width: 80%;
+        height: 134px;
+      }
+    }
   }
+  .box--reserve{
+    margin-bottom: 22px;
+  }
+  .box--input {
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    input{
+      margin-bottom: 10px;
+      margin-right: 0px;
+    }
+    input, button{
+      float: none;
+    }
+  }
+
   footer{
     padding-bottom: 25px;
     .footer__social{
@@ -145,3 +190,4 @@
     }
   }
 }
+

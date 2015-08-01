@@ -5,15 +5,26 @@
   <title>Bon Appetit</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/media-queries.css">
   <link rel="stylesheet" href="css/mediaelementplayer.css" />
   <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.5.0.min.js"></script>
+
 </head>
 <body>
 <div class="wrapper">
   <section class="main">
     <h1 id="main" class="main__logo">Bon Appetit</h1>
     <h2 class="main__title">RESERVE YOUR TABLE, ORDER YOUR FOOD, AND PAY FOR YOUR BILL...AT YOUR PACE</h2>
-    <button class="main__btn-reserve">RESERVE YOUR SPOT</button>
+    <div class="box--reserve">
+      <button class="main__btn-reserve js-button-input"><span>RESERVE YOUR SPOT</span></button>
+    </div>
+    <div class="box--input js-box--input">
+      <input type="text" class="js-input-email input--reserve" placeholder="Enter your email address">
+      <button class="main__btn-reserve js-do-reserve">RESERVE</button>
+    </div>
+    
   </section>
 
   <section class="video-bon__wrap">
@@ -90,5 +101,6 @@
   <script src="javascripts/jquery.js"></script>
   <script src="javascripts/mediaelement-and-player.js"></script>
   <script src="javascripts/global.js"></script>
+  <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.5.0.min.js"></script>
 </body>
 </html>
