@@ -97,12 +97,6 @@
   .box--reserve {
     min-width: 250px; } }
 @media (max-width: 445px) {
-  p {
-    font-size: 1.6rem; }
-
-  h2 {
-    font-size: 1.8rem; }
-
   .main {
     padding: 60px 0 60px 0; }
     .main h1 {
