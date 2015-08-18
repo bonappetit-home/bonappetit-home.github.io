@@ -24,6 +24,7 @@
 	margin: 0 auto;
 	display: block;
 	text-align: center;
+	width: 100%;
 }
 
 .mejs-embed, .mejs-embed body {
