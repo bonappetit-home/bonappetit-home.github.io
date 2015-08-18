@@ -47,6 +47,13 @@
     footer .footer__copyright {
       width: 30%;
       float: left; } }
+@media (max-width: 830px) {
+  footer .footer__social li {
+    margin-left: 25px; }
+    footer .footer__social li:first-child {
+      margin-left: 0; }
+  footer .footer__social .footer__social-wrap {
+    width: 370px; } }
 @media (max-width: 768px) {
   .main h1 {
     width: 170px;
@@ -76,8 +83,7 @@
       footer .footer__social .footer__social-wrap {
         float: none;
         margin: 0 auto;
-        margin-top: 20px;
-        width: 418px; }
+        margin-top: 20px; }
     footer .footer__copyright {
       width: 100%;
       float: none;
