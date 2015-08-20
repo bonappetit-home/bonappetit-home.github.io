@@ -228,6 +228,7 @@ footer {
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
+  background: #000;
   padding-top: 30px;
   height: 0;
   overflow: hidden; }
@@ -239,6 +240,8 @@ footer {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  max-width: 1200px;
+  max-height: 705px; }
 
 /*# sourceMappingURL=styles.css.map */

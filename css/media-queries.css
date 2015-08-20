@@ -1,6 +1,11 @@
 /*
  * Media queries ----------------------------------------
  */
+/*@media (min-width: 1200px){
+  .video-container {
+    background: red;
+  }
+}*/
 @media (max-width: 1170px) and (min-width: 991px) {
   .steps-right, .steps-left {
     padding: 80px 0; }
