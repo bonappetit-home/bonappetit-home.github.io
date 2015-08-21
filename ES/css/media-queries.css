@@ -149,5 +149,8 @@
       margin-right: 0px; }
     .box--input input, .box--input button {
       float: none; } }
+@media (max-width: 380px) {
+  .box--input {
+    bottom: 222px; } }
 
 /*# sourceMappingURL=media-queries.css.map */
