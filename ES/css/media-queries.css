@@ -1,0 +1,153 @@
+/*
+ * Media queries ----------------------------------------
+ */
+@media (min-width: 1200px) {
+  .video-container {
+    position: relative;
+    padding-bottom: 0;
+    padding-top: 30px;
+    height: 705px;
+    left: calc(50% - 600px); } }
+@media (max-width: 1170px) and (min-width: 991px) {
+  .steps-right, .steps-left {
+    padding: 80px 0; }
+    .steps-right img, .steps-left img {
+      width: 400px; }
+    .steps-right .steps-right__text-wrap, .steps-left .steps-right__text-wrap {
+      margin-top: 358px; }
+    .steps-right .steps-left__text-wrap, .steps-left .steps-left__text-wrap {
+      margin-top: 310px; } }
+@media (max-width: 990px) {
+  .main {
+    padding: 80px 0 55px 0; }
+
+  .box--input {
+    bottom: 260px; }
+
+  .steps-right, .steps-left {
+    padding: 80px 0; }
+    .steps-right img, .steps-left img {
+      width: 400px;
+      margin: 0 auto;
+      padding: 0;
+      float: none;
+      margin-left: calc(50% - 200px); }
+    .steps-right .steps-right__text-wrap, .steps-left .steps-right__text-wrap {
+      padding-left: 0;
+      max-width: 470px;
+      margin: 0 auto;
+      margin-top: 60px; }
+    .steps-right .steps-left__text-wrap, .steps-left .steps-left__text-wrap {
+      padding-left: 0;
+      max-width: 470px;
+      margin: 0 auto;
+      margin-bottom: 60px; }
+
+  footer {
+    padding: 40px 30px;
+    padding-bottom: 60px; }
+    footer .footer__social {
+      width: 100%;
+      float: left; }
+      footer .footer__social .footer__social-wrap {
+        width: 710px;
+        margin: 0 auto; }
+    footer .footer__copyright {
+      width: 100%;
+      float: none;
+      text-align: center; } }
+@media (max-width: 830px) {
+  footer .footer__social li {
+    margin-left: 25px; }
+    footer .footer__social li:first-child {
+      margin-left: 0; }
+  footer .footer__social .footer__social-wrap {
+    width: 550px; } }
+@media (max-width: 768px) {
+  .main h1 {
+    width: 170px;
+    height: 170px;
+    margin-left: calc(50% - 85px); }
+
+  .video-bon__wrap .video-bon__play {
+    height: 100px;
+    width: 100px;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    background-size: 100%; }
+
+  .steps-right img, .steps-left img {
+    width: 300px;
+    margin: 0 auto;
+    padding: 0;
+    float: none;
+    margin-left: calc(50% - 150px); } }
+@media (max-width: 745px) {
+  footer {
+    padding-bottom: 40px; }
+    footer .footer__social {
+      width: 100%;
+      float: none;
+      margin: 0 auto; }
+      footer .footer__social .footer__social-wrap {
+        float: none;
+        margin: 0 auto;
+        margin-top: 20px; }
+    footer .footer__copyright {
+      width: 100%;
+      float: none;
+      text-align: center; }
+
+  .steps-right img, .steps-left img {
+    width: 250px;
+    margin-left: calc(50% - 125px); } }
+@media (max-width: 605px) {
+  footer {
+    padding-bottom: 25px; }
+    footer .footer__social .footer__social-wrap {
+      width: auto; }
+      footer .footer__social .footer__social-wrap li {
+        list-style: none;
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-left: 0; } }
+@media (max-width: 520px) {
+  .box--input {
+    width: 337px;
+    bottom: 223px; }
+    .box--input input, .box--input button {
+      float: none;
+      margin: 0 auto;
+      margin-bottom: 15px; }
+
+  .box--reserve {
+    min-width: 250px; } }
+@media (max-width: 445px) {
+  .main {
+    padding: 60px 0 15px 0; }
+    .main h1 {
+      width: 150px;
+      height: 150px;
+      margin-left: calc(50% - 75px); }
+    .main .main__title {
+      margin: 50px auto 25px;
+      padding: 0 20px; }
+    .main .main__btn-reserve.btn-reserve--width {
+      width: 80%;
+      height: 134px; }
+
+  .box--reserve {
+    margin-bottom: 22px; }
+
+  .box--input {
+    bottom: 175px;
+    width: 100%;
+    text-align: center; }
+    .box--input input {
+      margin-bottom: 10px;
+      margin-right: 0px; }
+    .box--input input, .box--input button {
+      float: none; } }
+
+/*# sourceMappingURL=media-queries.css.map */
