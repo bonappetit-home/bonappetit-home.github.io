@@ -73,6 +73,11 @@ p {
     transition: 0.4s all ease; }
     .main .main__btn-reserve.btn-reserve--width {
       width: 490px; }
+  .main .main__link-language {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    color: #fff; }
 
 .steps__paragraph {
   line-height: 26px; }
