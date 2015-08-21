@@ -2,11 +2,16 @@
  * Media queries ----------------------------------------
  */
 
-/*@media (min-width: 1200px){
-  .video-container {
-    background: red;
+@media (min-width: 1200px){
+  .video-container{
+    position: relative;
+    padding-bottom: 0;
+    padding-top: 30px;
+    height: 705px;
+    left: calc(50% - 600px);
   }
-}*/
+}
+
 
 @media (max-width: 1170px) and (min-width: 991px){
   .steps-right, .steps-left{

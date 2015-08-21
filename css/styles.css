@@ -81,7 +81,8 @@ p {
  * Video-bon -------------------------------
  */
 .video-bon__wrap {
-  position: relative; }
+  position: relative;
+  background: #000; }
   .video-bon__wrap .video-bon__video {
     width: 100%; }
   .video-bon__wrap .video-bon__play {
