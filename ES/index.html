@@ -18,6 +18,28 @@
 <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
 <link rel="manifest" href="icons/manifest.json">
+<script type="text/javascript">
+
+  if(gup('q')==null)
+  {
+     var userLang = navigator.language || navigator.userLanguage; 
+     userLang = userLang.split("-")[0].split("_")[0]
+     if(userLang!="es")
+     {
+      window.location.href = "../index.html";
+     }
+  }
+  function gup( name, url ) {
+    if (!url) url = location.href
+    name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+    var regexS = "[\\?&]"+name+"=([^&#]*)";
+    var regex = new RegExp( regexS );
+    var results = regex.exec( url );
+    return results == null ? null : results[1];
+  }
+
+ </script>
+
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff ">
@@ -33,7 +55,7 @@
 <body>
 <div class="wrapper">
   <section class="main">
-    <a href="../index.html" class="main__link-language">EN</a>
+    <a href="../index.html?q=n" class="main__link-language">EN</a>
     <h1 id="main" class="main__logo">Bon Appetit</h1>
     <h2 class="main__title">RESERVA UNA MESA, PIDE LA COMIDA, Y PAGA LA CUENTA...TODO A TU TIEMPO</h2>
     <div class="box--reserve">
