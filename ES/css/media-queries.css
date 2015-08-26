@@ -123,9 +123,6 @@
 
   .box--reserve {
     min-width: 250px; } }
-@media (max-width: 469px) {
-  .box--input {
-    bottom: 263px; } }
 @media (max-width: 445px) {
   .main {
     padding: 60px 0 15px 0; }
@@ -138,7 +135,7 @@
       padding: 0 20px; }
     .main .main__btn-reserve.btn-reserve--width {
       width: 80%;
-      height: 134px; }
+      height: 146px; }
 
   .box--reserve {
     margin-bottom: 22px; }
@@ -152,8 +149,6 @@
       margin-right: 0px; }
     .box--input input, .box--input button {
       float: none; } }
-@media (max-width: 380px) {
-  .box--input {
-    bottom: 222px; } }
+
 
 /*# sourceMappingURL=media-queries.css.map */
