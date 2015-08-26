@@ -78,8 +78,7 @@ p {
     right: 30px;
     top: 30px;
     color: #fff; }
-
-      .main .main__link-register {
+  .main .main .main__link-register {
     position: absolute;
     right: 90px;
     top: 30px;
@@ -226,7 +225,7 @@ footer {
 .box--input {
   display: none;
   margin: 0 auto;
-  width: 493px;
+  width: 495px;
   position: absolute;
   bottom: 205px;
   left: 0;
