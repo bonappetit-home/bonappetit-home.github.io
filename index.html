@@ -28,7 +28,14 @@
      {
       window.location.href = "ES/index.html";
      }
+  }else{
+    /*var url=document.location.href;
+    var urlparts= url.split('?');
+    var urlBase=urlparts.shift(); */
+    urlBase="http://www.bappetit.com"
+    window.history.pushState('',document.title,urlBase);
   }
+
   function gup( name, url ) {
     if (!url) url = location.href
     name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");

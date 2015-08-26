@@ -28,6 +28,12 @@
      {
       window.location.href = "../index.html";
      }
+  }else{
+    /*var url=document.location.href;
+    var urlparts= url.split('?');
+    var urlBase=urlparts.shift(); */
+    urlBase="http://www.bappetit.com/ES"
+    window.history.pushState('',document.title,urlBase);
   }
   function gup( name, url ) {
     if (!url) url = location.href
