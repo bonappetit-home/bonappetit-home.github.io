@@ -79,6 +79,12 @@ p {
     top: 30px;
     color: #fff; }
 
+      .main .main__link-register {
+    position: absolute;
+    right: 90px;
+    top: 30px;
+    color: #fff; }
+
 .steps__paragraph {
   line-height: 26px; }
 
